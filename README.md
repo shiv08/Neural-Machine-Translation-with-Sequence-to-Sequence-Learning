@@ -77,17 +77,7 @@ python utils.py --model_path checkpoints/seq2seq-model-final.pt --mode translate
 python utils.py --model_path checkpoints/seq2seq-model-final.pt --mode evaluate --num_samples 100
 ```
 
-## 📁 Project Structure
-```
-nmt-project/
-│
-├── train.py           # Training script
-├── utils.py           # Utility functions and inference
-├── requirements.txt   # Project dependencies
-├── checkpoints/       # Saved models
-├── cache/            # Vocabulary cache
-└── README.md         # Project documentation
-```
+
 
 ## 🔬 Technical Details
 ### 🔄 Data Processing Pipeline
