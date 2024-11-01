@@ -25,7 +25,7 @@ CLIP = 5
 
 ### 🔋 Key Components
 - 🔍 **Encoder**: Multi-layer LSTM with dropout for regularization
-- 🎯 **Decoder**: Multi-layer LSTM with attention mechanism
+- 🎯 **Decoder**: Multi-layer LSTM with output projection layer
 - 📊 **Embedding**: 768-dimensional word embeddings
 - ⚡ **Optimization**: Adam optimizer with gradient clipping
 - 📉 **Loss Function**: Cross-entropy with padding mask
